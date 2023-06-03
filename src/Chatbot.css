@@ -1,0 +1,30 @@
+/* Chatbot.css */
+
+/* Styling the chatbot element */
+.chatbot {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+/* Styling the chat-history element */
+.chat-history {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+/* Styling the user-message element */
+.user-message {
+    text-align: right;
+}
+
+/* Styling the chat-form element */
+.chat-form {
+    display: flex;
+}
+
+/* Styling the input element inside the chat-form element */
+.chat-form input {
+    flex-grow: 1;
+}
